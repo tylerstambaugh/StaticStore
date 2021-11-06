@@ -23,6 +23,10 @@ ul {
 
 }
 
+nav {
+    background-color: midnightblue;
+}
+
 /*header */
 
 /* newest item */
@@ -34,3 +38,8 @@ ul {
 /* sidebar */
 
 /*main content */
+
+.mainContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
