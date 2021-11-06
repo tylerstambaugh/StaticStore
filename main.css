@@ -1,4 +1,36 @@
 body {
         background-image: linear-gradient(#009E47, black);
         font-family: 'Open Sans', sans-serif;
+        font-size: 87.5%;
 }
+
+h1 {
+    background-color: firebrick;
+}
+
+h2 {
+    background-color: darkorange;
+
+}
+
+p {
+    background-color: darkolivegreen;
+
+}
+
+ul {
+    background-color: greenyellow;
+
+}
+
+/*header */
+
+/* newest item */
+.newestItem{
+    background-color: darkmagenta;
+
+}
+
+/* sidebar */
+
+/*main content */
