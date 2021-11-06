@@ -36,10 +36,31 @@ nav {
 }
 
 /* sidebar */
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 3/4;
+}
 
 /*main content */
 
 .mainContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.mainContent h1 {
+    grid-column: 1/3;
+}
+
+.mainContent h2 {
+    margin: 10px;
+}
+
+.mainContent p {
+    background-color: mintcream;
+    margin: 10px 10px;
+}
+
+section div.panel img.product {
+    margin: 45px 45px;
 }
