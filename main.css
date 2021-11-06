@@ -38,9 +38,15 @@ nav {
 /* sidebar */
 .sidebar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 3/4;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 4/5;
 }
+
+/* .blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 4;
+} */
 
 /*main content */
 
