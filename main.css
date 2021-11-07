@@ -27,19 +27,27 @@ nav {
     background-color: midnightblue;
 }
 
+.contentWrapper {
+    display: grid;
+    grid-template-columns: repeat(2 2fr) 1fr;
+    grid-template-rows: .5fr repeat(3 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
 /*header */
 
 /* newest item */
-.newestItem{
-    background-color: darkmagenta;
+div section.newestItem{
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: rgb(122, 89, 122);
 
 }
 
 /* sidebar */
 .sidebar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: 4/5;
+    grid-area: 2 / 3 / 4 / 4;
+    background-color: moccasin;
 }
 
 /* .blog {
@@ -51,8 +59,8 @@ nav {
 /*main content */
 
 .mainContent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid
+    
 }
 .mainContent h1 {
     grid-column: 1/3;
