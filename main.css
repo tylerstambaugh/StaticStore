@@ -1,5 +1,5 @@
 body {
-        background-image: linear-gradient(#009E47, black);
+        background-image: ulr("../assest");
         font-family: 'Open Sans', sans-serif;
         font-size: 87.5%;
 }
