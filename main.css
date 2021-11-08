@@ -39,7 +39,25 @@ nav {
 /*header */
 
 .header {
-    display: grid;
+display: grid;
+grid-template-columns: 4fr 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+
+#topNav {
+grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#navList {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.header #topNav {
+    display: inline;
 }
 .header #topNav ul {
     list-style: none;
@@ -55,18 +73,22 @@ nav {
 section.newestItem{
     grid-area: 1 / 1 / 2 / 4;
     background-color: rgb(122, 89, 122);
+    margin: 2em 2em;
 
 }
 
 .newestItem img#newestProduct {
     width: 200px;
     height: 200px;
+    margin: 1em 1em;
+    
 }
 
 /* sidebar */
 .sidebar {
     grid-area: 2 / 3 / 4 / 4;
     background-color: moccasin;
+    margin: 1em 1em;
 }
 
 /* .blog {
@@ -81,6 +103,7 @@ section.newestItem{
     display: grid;
     justify-content: center;
     align-items: center;
+    margin: 1em 1em;
     
 }
 .mainContent h1 {
