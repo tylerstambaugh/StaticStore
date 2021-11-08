@@ -37,8 +37,18 @@ nav {
 }
 
 /*header */
+
+.header {
+    display: grid;
+}
 .header #topNav ul {
     list-style: none;
+    
+}
+
+.header #topNav ul li {
+    display: inline;
+    position: float;
 }
 
 /* newest item */
