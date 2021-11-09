@@ -60,16 +60,16 @@ z-index: 3;
 }
 
 #topNav h1 {
-    font-size: 43px;
+    font-size: 48px;
     font-weight: bold;
     font-family: cursive;
     background-color: rgba(75, 182, 48, .5);
     color: rgb(247, 48, 81);
     background-color: transparent;
-    
+    text-decoration: underline overline wavy blue;
     grid-column-start: 1;
     grid-column-end: 3;
-    vertical-align: center;
+    padding: 1em 0em 0em 0em;
     display: inline-block;
     margin: 0.5em 1em;
 
