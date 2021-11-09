@@ -42,24 +42,43 @@ nav {
 
 .header {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr ;
 grid-template-rows: 1fr;
-grid-column-gap: 20px;
+grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 
 #topNav {
   grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-end: 4;
+  background-image: url(./assets/logo.PNG);
+  height: 200px;
+  display: inline;
 }
 
-.header #topNav #logo {
+#topNav h1 {
+    font-size: 43px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(247, 48, 81);
+    background-color: transparent;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    vertical-align: center;
+    display: inline-block;
+    margin: 0.5em 1em;
+
+}
+
+/* .header #topNav #logo {
     grid-column-start: 2;
     grid-column-end: 4;
-}
+} */
+
 #navList {
-    grid-column-start: 5;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
 .header #topNav {
