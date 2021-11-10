@@ -126,6 +126,11 @@ section.newestItem h1 {
     margin: .5em;
     background-color: deeppink;
 }
+section.newestItem p {
+    font-size: 13px;
+    margin: .5em;
+    background-color: rgba(144, 118, 204, .3);
+}
 
 #newestItemTagline {
     margin: 2em;
@@ -134,7 +139,7 @@ section.newestItem h1 {
 }
 
 .newestItem img#newestProduct {
-    width: 400px;
+    width: 200px;
     height: 200px;
     margin: 1em 1em;
     box-shadow: 10px 5px 5px black;
@@ -204,6 +209,7 @@ section.newestItem h1 {
     width: 9em;
     text-align: center;
     font-weight: bolder;
+    background-color: violet;
 }
 
 .mainContent p {
