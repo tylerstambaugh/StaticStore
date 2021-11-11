@@ -183,10 +183,10 @@ section.newestItem p {
 
 .mainContent {
     display: grid;
-    grid-row-gap: 15px;
+    grid-row-gap: 10px;
     grid-column-gap: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: flex;
     margin: 0.2em 0.2em 0.2em 0.2em;
     padding: 0.5em 0.5em 0.5em 0.5em;
     position: relative;
